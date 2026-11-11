@@ -58,16 +58,6 @@ With the Android SDK: `apksigner verify --print-certs uruc-<version>.apk`. The `
 - **Errors:** when the remote refuses a request, URUC shows the reason the remote gives. A remote that is slow to answer says so, and a press that timed out may still have worked.
 - **App names on Android TV:** the Android TV integration reports the running app by its package name, so URUC shows the player's name with the app's logo instead.
 
-## Report a problem
+## Support
 
-URUC shows whatever your remote reports: its activities, pages, buttons, icons and every integration's entities and what each one can do. Nothing is built for one setup. If something from your remote looks wrong or is missing in URUC, it is most likely an integration or a remote version URUC has not met yet, and a report fixes it for everyone.
-
-[Open an issue](https://github.com/guyp2k/uruc-releases/issues/new) with:
-
-- the remote's model and OS version (Settings, Status in URUC);
-- the integration involved (for example Roon, Spotify, Sonos, Home Assistant) and what it controls;
-- what you expected and what URUC showed, with a screenshot if you can;
-- the log from **Share Log** (Settings, About), saved as a file and attached. It holds URUC's own short messages and the kind of any error, never keys, PINs or error text.
-
-Please leave out your remote's address and anything else private.
-
+URUC is a personal project, shared as-is. There is no support, and issues are not tracked. It shows whatever your remote reports, so most setups should just work; if yours does not, it may not be a fit.
