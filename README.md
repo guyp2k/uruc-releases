@@ -7,7 +7,7 @@ This repository holds signed release builds only.
 <p>
 <img src="screenshots/home.png" width="220" alt="Home: the running activity with what is playing, Control, Pause and Off buttons, then the remote's Home pages as coloured sections, one open with its lights and their on and off switches">
 <img src="screenshots/pad.png" width="220" alt="Control, Pad: a direction pad with OK, Back, Home and Menu, volume and channel rockers, and the activity's own buttons">
-<img src="screenshots/pages.png" width="220" alt="Control, Pages: the activity's page from the remote, with the player card and a grid of icon buttons, and dots to swipe between pages">
+<img src="screenshots/pages.png" width="220" alt="Control, Pages: the activity's page from the remote, with the player card showing level bars for the place in the track, and a grid of icon buttons, and dots to swipe between pages">
 <img src="screenshots/camera.png" width="220" alt="Control, Pages: a camera filling the player card, with a button to open it full screen">
 <img src="screenshots/browse.png" width="220" alt="Browse, Entities: one search and filter field, then entities grouped by type with their state and power buttons">
 <img src="screenshots/settings.png" width="220" alt="Settings: Remotes, Appearance, Security, Status, Utilities and About cards, with Status open showing a battery ring and the connection, charge, charger and power mode">
@@ -48,6 +48,7 @@ With the Android SDK: `apksigner verify --print-certs uruc-<version>.apk`. The `
 - **Home:** the running activity sits on top with what it is playing, and Control, Play or Pause and Off. Below are the remote's own Home pages as coloured sections; open one to start an activity or switch a light. Sections you open stay open next time.
 - **Reorder:** long press a card's header on Home or in Settings and drag it. The order is kept on this phone only and the remote is not changed; a page added on the remote later goes to the end. Reset to Remote Order (Home) or Reset Order (Settings) puts it back.
 - **Control:** Pad, Touchpad and Pages. Pages shows the activity's pages from the remote, swiped left and right, with the same icons and buttons. With nothing running, Control lists your activities to start, with search, a filter by Home group and expand or collapse.
+- **Players:** a player on an activity page shows its picture, whether it is playing, the title on up to two lines (long press for all of it), the artist and album, and a row of level bars that light up to the place in the track, with the time played and the length. Previous, play or pause, next and the library share one row, and the card leaves out any volume or mute button the page already has for that player. The bars' heights are a pattern of their own for each track, not the sound.
 - **Cameras:** a camera on an activity page fills the player card. Tap it to open it full screen; it follows the live picture and you can pinch to zoom.
 - **Browse:** every entity on the remote by type, and every integration with its state, each with one search and filter field.
 - **Status:** Settings, Status shows the remote's battery as a ring, its connection, charge, charger and power mode, and its model and OS.
