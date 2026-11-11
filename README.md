@@ -5,16 +5,17 @@ An Android companion for Unfolded Circle remotes: start and stop activities from
 This repository holds signed release builds only.
 
 <p>
-<img src="screenshots/home.png" width="220" alt="Home: the running activity with what is playing, Control, Pause and Off buttons, then the remote's Home pages as coloured sections, one open with its lights and their on and off switches">
-<img src="screenshots/pad.png" width="220" alt="Control, Pad: a direction pad with OK, Back, Home and Menu, volume and channel rockers, and the activity's own buttons">
-<img src="screenshots/pages.png" width="220" alt="Control, Pages: the activity's page from the remote, with the player card showing level bars for the place in the track, and a grid of icon buttons, and dots to swipe between pages">
-<img src="screenshots/roon-page.png" width="220" alt="Control, Pages: a Roon page with the player card showing the album art, title, artist and album, level bars lit up to the place in the track, the track controls with the library and volume, and the page's shuffle, repeat, stop and power buttons">
-<img src="screenshots/spotify-page.png" width="220" alt="Control, Pages: a Spotify page with the player card, a title on two lines, level bars, the track controls with the library and mute, the Device picker set to Living Room Speaker, and the page's volume down and up buttons">
-<img src="screenshots/camera.png" width="220" alt="Control, Pages: a camera filling the player card, with a button to open it full screen">
-<img src="screenshots/browse.png" width="220" alt="Browse, Entities: one search and filter field, then entities grouped by type with their state and power buttons">
-<img src="screenshots/settings.png" width="220" alt="Settings: Remotes, Appearance, Security, Status, Utilities and About cards, with Status open showing a battery ring and the connection, charge, charger and power mode">
+<img src="screenshots/home-102.png" width="220" alt="Home: the running activity with what is playing, Control, Pause and Off buttons, then the remote's Home pages as coloured sections, one open with its lights and their on and off switches">
+<img src="screenshots/pad-102.png" width="220" alt="Control, Pad: a direction pad with OK, Back, Home and Menu, volume and channel rockers, and the activity's own buttons">
+<img src="screenshots/pages-102.png" width="220" alt="Control, Pages: the activity's page from the remote, with the player card showing level bars for the place in the track, and a grid of icon buttons, and dots to swipe between pages">
+<img src="screenshots/roon-page-102.png" width="220" alt="Control, Pages: a Roon page with the player card showing the album art, title, artist and album, level bars lit up to the place in the track, the track controls with the library and volume, and the page's shuffle, repeat, stop and power buttons">
+<img src="screenshots/spotify-page-102.png" width="220" alt="Control, Pages: a Spotify page with the player card, a title on two lines, level bars, the track controls with the library and mute, the Device picker set to Living Room Speaker, and the page's volume down and up buttons">
+<img src="screenshots/weather.png" width="220" alt="Control with the weather pill open: the temperature in the title line and a drop-down of the forecast rows chosen in Settings, each with its time, sky, temperature and rain chance">
+<img src="screenshots/camera-102.png" width="220" alt="Control, Pages: a camera filling the player card, with a button to open it full screen">
+<img src="screenshots/browse-102.png" width="220" alt="Browse, Entities: one search and filter field, then entities grouped by type with their state and power buttons">
+<img src="screenshots/settings-102.png" width="220" alt="Settings: Remotes, Appearance, Security, Status, Utilities and About cards, with Status open showing a battery ring and the connection, charge, charger and power mode">
 <img src="screenshots/remotes.png" width="220" alt="Settings, Remotes: one card per remote with a green ring while connected, a Home badge, its address and model, and a dashed Add Remote tile">
-<img src="screenshots/themes.png" width="220" alt="Appearance: ten themes including AMOLED Black, and Match Phone to follow the phone's light or dark mode">
+<img src="screenshots/themes-102.png" width="220" alt="Appearance: ten themes including AMOLED Black, and Match Phone to follow the phone's light or dark mode">
 </p>
 
 Screenshots show a demo remote.
@@ -51,6 +52,9 @@ With the Android SDK: `apksigner verify --print-certs uruc-<version>.apk`. The `
 - **Reorder:** long press a card's header on Home or in Settings and drag it. The order is kept on this phone only and the remote is not changed; a page added on the remote later goes to the end. Reset to Remote Order (Home) or Reset Order (Settings) puts it back.
 - **Control:** Pad, Touchpad and Pages. Pages shows the activity's pages from the remote, swiped left and right, with the same icons and buttons. With nothing running, Control lists your activities to start, with search, a filter by Home group and expand or collapse.
 - **Players:** a player on an activity page, such as Roon or Spotify, shows its picture, whether it is playing, the title on up to two lines (long press for all of it), the artist and album, and a row of level bars that light up to the place in the track, with the time played and the length. Previous, play or pause, next and the library share one row, and the card leaves out any volume or mute button the page already has for that player. The bars' heights are a pattern of their own for each track, not the sound.
+- **Weather:** pick a temperature sensor from a weather integration on your remote in Settings, Weather, and tick the forecast rows you want. A pill with the temperature then sits at the top of every tab; tap it for the forecast, worded as the remote words it.
+- **Modes:** an activity whose pages show only cameras opens straight on its pages. Long press an activity's name, or its Pad, Touchpad and Pages switch, to choose which modes it shows.
+- **Pages loop:** swipe back from an activity's first page to reach its last.
 - **Cameras:** a camera on an activity page fills the player card. Tap it to open it full screen; it follows the live picture and you can pinch to zoom.
 - **Browse:** every entity on the remote by type, and every integration with its state, each with one search and filter field.
 - **Status:** Settings, Status shows the remote's battery as a ring, its connection, charge, charger and power mode, and its model and OS.
