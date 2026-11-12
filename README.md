@@ -1,6 +1,6 @@
 # URUC
 
-An Android companion for Unfolded Circle remotes: start and stop activities from your phone, control the running one with a pad, a touchpad or the remote's own button pages, see what is playing (with the app's logo or the album art), open cameras full screen, set lights (brightness, color, white) and thermostats (target, mode) from a tap on their row, browse every entity and integration on the remote, and check the remote's battery, charger, power mode and connection. It talks to your remote directly on your home network through its official Core API: no account, no cloud relay, no tracking.
+An Android companion for Unfolded Circle remotes: start and stop activities from your phone, control the running one with a pad, a touchpad or the remote's own button pages, see what is playing (with the app's logo or the album art), open cameras full screen, set lights (brightness, color, white) and thermostats (target, mode) from a tap on their row or a long press on an activity page's tile, choose URUC's own text size, browse every entity and integration on the remote, and check the remote's battery, charger, power mode and connection. It talks to your remote directly on your home network through its official Core API: no account, no cloud relay, no tracking.
 
 This repository holds signed release builds only.
 
@@ -12,10 +12,11 @@ This repository holds signed release builds only.
 <img src="screenshots/spotify-page-102.png" width="220" alt="Control, Pages: a Spotify page with the player card, a title on two lines, level bars, the track controls with the library and mute, the Device picker set to Living Room Speaker, and the page's volume down and up buttons">
 <img src="screenshots/weather.png" width="220" alt="Control with the weather pill open: the temperature in the title line and a drop-down of the forecast rows chosen in Settings, each with its time, sky, temperature and rain chance">
 <img src="screenshots/camera-102.png" width="220" alt="Control, Pages: a camera filling the player card, with a button to open it full screen">
-<img src="screenshots/browse-102.png" width="220" alt="Browse, Entities: one search and filter field, then entities grouped by type with their state and power buttons">
+<img src="screenshots/browse-104.png" width="220" alt="Browse, Entities: one search and filter field, then each entity type as a tinted card with an icon, its count in a pill and its entities inside, with their state and power buttons">
 <img src="screenshots/light-103.png" width="220" alt="A light's sheet: its name, state and power button, then Brightness on a dark to color track, Color on a rainbow track, Saturation from white to the color, and White from Cool to Warm, each with a ring handle">
 <img src="screenshots/settings-102.png" width="220" alt="Settings: Remotes, Appearance, Security, Status, Utilities and About cards, with Status open showing a battery ring and the connection, charge, charger and power mode">
 <img src="screenshots/remotes.png" width="220" alt="Settings, Remotes: one card per remote with a green ring while connected, a Home badge, its address and model, and a dashed Add Remote tile">
+<img src="screenshots/text-size-104.png" width="220" alt="Appearance: the themes, then Text Size with a Match Phone Size switch showing the phone is at 130%, a small A to big A slider at 80% with a green mark at the phone's size, and a sample row at that size">
 <img src="screenshots/themes-102.png" width="220" alt="Appearance: ten themes including AMOLED Black, and Match Phone to follow the phone's light or dark mode">
 </p>
 
