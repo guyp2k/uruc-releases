@@ -5,19 +5,19 @@ An Android companion for Unfolded Circle remotes: start and stop activities from
 This repository holds signed release builds only.
 
 <p>
-<img src="screenshots/home-102.png" width="220" alt="Home: the running activity with what is playing, Control, Pause and Off buttons, then the remote's Home pages as coloured sections, one open with its lights and their on and off switches">
+<img src="screenshots/home-105.png" width="220" alt="Home: the running activity with what is playing, Control, Pause and Off buttons, then the remote's Home pages as coloured sections, one open with its lights and their on and off switches">
 <img src="screenshots/pad-102.png" width="220" alt="Control, Pad: a direction pad with OK, Back, Home and Menu, volume and channel rockers, and the activity's own buttons">
 <img src="screenshots/pages-102.png" width="220" alt="Control, Pages: the activity's page from the remote, with the player card showing level bars for the place in the track, and a grid of icon buttons, and dots to swipe between pages">
 <img src="screenshots/roon-page-102.png" width="220" alt="Control, Pages: a Roon page with the player card showing the album art, title, artist and album, level bars lit up to the place in the track, the track controls with the library and volume, and the page's shuffle, repeat, stop and power buttons">
-<img src="screenshots/spotify-page-102.png" width="220" alt="Control, Pages: a Spotify page with the player card, a title on two lines, level bars, the track controls with the library and mute, the Device picker set to Living Room Speaker, and the page's volume down and up buttons">
+<img src="screenshots/spotify-page-105.png" width="220" alt="Control, Pages: a Spotify page with the player card, a title on two lines, level bars, the track controls with the library and mute, shuffle, repeat, Library and Search tiles, the page's volume down and up buttons, and the Device picker set to Living Room Speaker">
 <img src="screenshots/weather.png" width="220" alt="Control with the weather pill open: the temperature in the title line and a drop-down of the forecast rows chosen in Settings, each with its time, sky, temperature and rain chance">
 <img src="screenshots/camera-102.png" width="220" alt="Control, Pages: a camera filling the player card, with a button to open it full screen">
 <img src="screenshots/browse-104.png" width="220" alt="Browse, Entities: one search and filter field, then each entity type as a tinted card with an icon, its count in a pill and its entities inside, with their state and power buttons">
-<img src="screenshots/light-103.png" width="220" alt="A light's sheet: its name, state and power button, then Brightness on a dark to color track, Color on a rainbow track, Saturation from white to the color, and White from Cool to Warm, each with a ring handle">
+<img src="screenshots/light-105.png" width="220" alt="A light's sheet: its name, state and power button, then Brightness on a dark to color track, Color on a rainbow track, Saturation from white to the color, and White from Cool to Warm, each with a ring handle">
 <img src="screenshots/settings-102.png" width="220" alt="Settings: Remotes, Appearance, Security, Status, Utilities and About cards, with Status open showing a battery ring and the connection, charge, charger and power mode">
 <img src="screenshots/remotes.png" width="220" alt="Settings, Remotes: one card per remote with a green ring while connected, a Home badge, its address and model, and a dashed Add Remote tile">
 <img src="screenshots/text-size-104.png" width="220" alt="Appearance: the themes, then Text Size with a Match Phone Size switch showing the phone is at 130%, a small A to big A slider at 80% with a green mark at the phone's size, and a sample row at that size">
-<img src="screenshots/themes-102.png" width="220" alt="Appearance: ten themes including AMOLED Black, and Match Phone to follow the phone's light or dark mode">
+<img src="screenshots/themes-105.png" width="220" alt="Appearance: ten themes including AMOLED Black, Match Phone to follow the phone's light or dark mode, and Text Size below with Match Phone Size on">
 </p>
 
 Screenshots show a demo remote.
